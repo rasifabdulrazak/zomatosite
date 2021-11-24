@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.row1{
+    width: 100%;
+    height: 500px;
+    background-image: url(Images/New-1.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.text1{
+    cursor: pointer;
+    color: white;
+}
+.text1:hover{
+    color: rgb(1, 105, 32);
+}
+.row2{
+    align-items: center;
+    text-align: center;
+    padding-top: 5rem;
+   
+}
+.text-3{
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+.row3{
+    align-items: center;
+    text-align: center;
+
+}
+.text-4{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+.row4{
+    align-items: center;
+    text-align: center;
+
+}
+.Textfield{
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    border-color: thistle;
+    background-image: url(Images/icons8-search-24.png);
+    background-repeat: no-repeat;
+    background-size: 2.3rem;
+    
+    /* background-position:; */
+    outline: 0;
+    cursor: pointer;
+
+}
+.rowtwo{
+    width: 100%;
+    height: 300px;
+    background: yellow;
+}
+.row{
+    text-align: center;
+    align-items: center;
+}
