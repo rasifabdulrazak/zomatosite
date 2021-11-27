@@ -102,7 +102,8 @@ body{
     /* height: 7rem; */
 }
 .card{
-    border-radius: 40px;
+    border-radius: 13px;
+    min-height: 22rem;
 }
 .card-img-top{
     border-radius: 5px;
@@ -126,13 +127,14 @@ body{
 .Company{
     font-style: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     color: black;
 }
 .innertext{
     color: rgb(73, 73, 73);
     font-size: 15px;
     cursor: pointer;
+    font-weight: lighter;
 
 }
 .innertext:hover{
@@ -159,4 +161,209 @@ body{
 .h6{
     color: rgb(104, 104, 104);
     font-size: 15px;
+}
+.phoneimage {
+    width: 30%;
+    height: auto;
+}
+.innerSection{
+    width: 100%;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    margin-top: 3rem;
+}
+.AppText{
+    font-family:Okra, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 44px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    padding-left: 2rem;
+}
+.innerSection1{
+    width: 100%;
+    height: 100px;
+    background: rgb(255, 255, 255);
+}
+.TextFile{
+    font-family:Okra, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.Innersection2{
+    width: 100%;
+    height: 60px;
+    background: rgb(255, 255, 255);
+}
+.Emailpart{
+    float: left;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    font-size: 17px;
+    font-weight: lighter;
+
+
+}
+.Phonepart{
+    float: left;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    font-size: 17px;
+    font-weight: lighter;
+
+}
+.Radiobutton{
+    width: 20px;
+    height: 20px;  
+    fill: brown;
+    /* background-color; */
+   
+}
+.Emailpart input{
+    /* background:red; */
+    
+    fill: brown !important;
+}
+.innersection3{
+    width: 100%;
+    height: 60px;
+    background: rgb(255, 255, 255);
+}
+.Button1{
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+.ButtonClass{
+    width: 40%;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: aliceblue;
+    background-color: rgb(214, 214, 214);
+    float: left;
+    cursor: pointer;
+
+}
+.Button2{
+    padding-top: 0px;
+
+}
+.ButtonClass1{
+    width: 20%;
+    height: 2.5rem;
+    border-radius: 5px;
+    float: left;
+    text-align: center;
+    margin-left: 1rem;
+    background-color: rgb(245, 75, 75);
+    cursor: pointer;
+    border: 0px;
+    color: white;
+
+}
+.ButtonClass1:hover{
+    transform: scale(1.05);
+    transition: 1s ease;
+
+}
+.innersection4{
+    width: 100%;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    
+}
+.Download{
+    font-family:Okra, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    color: rgb(145, 145, 145);
+
+}
+.innersection5{
+    width: 100%;
+    height: 100px;
+    background: rgb(255, 255, 255);
+}
+.Imagep{
+    width: 15%;
+    height: auto;
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+    cursor: pointer;
+}
+.Imagep:hover{
+    transform: scale(1.05);
+    transition: 1s ease;
+
+}
+.firstdiv{
+    float: left;
+    
+
+}
+.Seconddiv{
+    
+    
+
+}
+.Buttonradio{
+    cursor: pointer;
+
+}
+.Searchspace{
+    width: 15rem;
+    height: 2.3rem;
+    border-radius: 5px;
+    border-color: rgb(153, 153, 153);
+}
+/* .Searchbuton{
+    margin-left: 2rem;
+    padding-left: 2rem;
+} */
+.Searchinput{
+    float: left;
+    
+    
+}
+.btn{
+    
+}
+.Searchbuton button{
+    margin-left: -3rem;
+    
+
+
+}
+.textd{
+    color: rgb(95, 95, 95);
+}
+.logo{
+    width: 25%;
+    
+    height: auto;
+}
+.phoneimage{
+    width: 100%;
+    height: auto;
+}
+.zom {
+    margin: auto;
+}
+.bi{
+    font-size: 30px;
+    line-height: 22px;
+    padding-left: 4px;
+}
+@media(min-height:600px){
+    .phoneimage{
+        width: 60%;
+    }
 }
